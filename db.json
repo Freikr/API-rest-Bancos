@@ -1,0 +1,31 @@
+{
+  "bancos": [
+    {
+      "id": "1",
+      "nombre": "Banco Central"
+    },
+    {
+      "id": "2",
+      "nombre": "Banco del Norte"
+    }
+  ],
+  "cuentas": [
+    {
+      "id": "101",
+      "nombre": "Juan Pérez",
+      "cuenta": "ES123456789",
+      "banco_id": 1
+    },
+    {
+      "id": 105,
+      "nombre": "Pedro Marmol",
+      "cuenta": "XYZ-789"
+    },
+    {
+      "id": 105,
+      "nombre": "Pedro Marmol",
+      "cuenta": "XYZ-789"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
